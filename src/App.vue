@@ -34,23 +34,18 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld />
+      <Fortune />
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import Fortune from './components/Fortune'
 
 export default {
   name: 'App',
-
   components: {
-    HelloWorld,
+    Fortune,
   },
-
-  data: () => ({
-    //
-  }),
 }
 </script>
